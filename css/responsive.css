@@ -1,0 +1,22 @@
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	    #schedule {
+	        background: url('../img/stardust_@2X.png') repeat;
+	    }
+	}
+	@media all and (max-width: 705px) {
+	
+	}
+	@media all and (max-width: 790px) {
+	    #schedule .program section {
+	        width: 100%;
+	        margin: 0 auto 0 auto;
+	        padding: 0;
+	        float: left !important;
+	    }
+	     #schedule .program section:nth-child(2) {
+	        margin: 5% auto 0 auto;
+	    }
+	     #schedule .program section table{
+	        margin: 0 auto;
+	    }
+}

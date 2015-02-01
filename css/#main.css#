@@ -1,0 +1,695 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('../fonts/BebasNeueRegular.ttf'), url('../fonts/BebasNeueRegular.otf');
+}
+@font-face {
+    font-family: 'BebasThin';
+    src: url('../fonts/BebasNeueThin.ttf'), url('../fonts/BebasNeueThin.otf');
+}
+@font-face {
+    font-family: 'BebasBook';
+    src: url('../fonts/BebasNeueBook.ttf'), url('../fonts/BebasNeueBook.otf');
+}
+@font-face {
+    font-family: 'BebasBold';
+    src: url('../fonts/BebasNeueBold.ttf'), url('../fonts/BebasNeueBold.otf');
+}
+/* Icons */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?ivhfwa');
+    src: url('../fonts/icomoon.eot?#iefixivhfwa') format('embedded-opentype'), url('../fonts/icomoon.woff?ivhfwa') format('woff'), url('../fonts/icomoon.ttf?ivhfwa') format('truetype'), url('../fonts/icomoon.svg?ivhfwa#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-macintosh:before {
+    content: "\e602";
+}
+.icon-bombbug:before {
+    content: "\e607";
+}
+.icon-computermacintoshvintage:before {
+    content: "\e608";
+}
+.icon-computerimac:before {
+    content: "\e609";
+}
+.icon-computerimac2:before {
+    content: "\e60a";
+}
+.icon-ibooklaptop:before {
+    content: "\e60b";
+}
+.icon-laptopmacbookstreamline:before {
+    content: "\e60c";
+}
+.icon-computernetworkstreamline:before {
+    content: "\e60d";
+}
+.icon-iphonestreamline:before {
+    content: "\e60e";
+}
+.icon-ipodstreamline:before {
+    content: "\e60f";
+}
+.icon-cookpanpotstreamline:before {
+    content: "\e610";
+}
+.icon-shoessnickersstreamline:before {
+    content: "\e611";
+}
+.icon-ipadstreamline:before {
+    content: "\e612";
+}
+.icon-ipodmusicstreamline:before {
+    content: "\e613";
+}
+.icon-ipodminimusicstreamline:before {
+    content: "\e614";
+}
+.icon-computerstreamline:before {
+    content: "\e615";
+}
+.icon-remotecontrolstreamline:before {
+    content: "\e616";
+}
+.icon-browserstreamlinewindow:before {
+    content: "\e617";
+}
+.icon-homehousestreamline:before {
+    content: "\e618";
+}
+.icon-earthglobestreamline:before {
+    content: "\e619";
+}
+.icon-mappinstreamline:before {
+    content: "\e61a";
+}
+.icon-arrowstreamlinetarget:before {
+    content: "\e61b";
+}
+.icon-editmodifystreamline:before {
+    content: "\e61c";
+}
+.icon-inkpenstreamline:before {
+    content: "\e61d";
+}
+.icon-penstreamline:before {
+    content: "\e61e";
+}
+.icon-penstreamline2:before {
+    content: "\e61f";
+}
+.icon-designgraphictabletstreamlinetablet:before {
+    content: "\e620";
+}
+.icon-penstreamline3:before {
+    content: "\e621";
+}
+.icon-penstreamline4:before {
+    content: "\e622";
+}
+.icon-designpencilrulestreamline:before {
+    content: "\e623";
+}
+.icon-eyedropperstreamline:before {
+    content: "\e624";
+}
+.icon-cropstreamline:before {
+    content: "\e625";
+}
+.icon-paintbucketstreamline:before {
+    content: "\e626";
+}
+.icon-brushpaintstreamline:before {
+    content: "\e627";
+}
+.icon-paintingrollstreamline:before {
+    content: "\e628";
+}
+.icon-paintingpalletstreamline:before {
+    content: "\e629";
+}
+.icon-stampstreamline:before {
+    content: "\e62a";
+}
+.icon-magicmagicwandstreamline:before {
+    content: "\e62b";
+}
+.icon-gridlinesstreamline:before {
+    content: "\e62c";
+}
+.icon-handlestreamlinevector:before {
+    content: "\e62d";
+}
+.icon-magnetstreamline:before {
+    content: "\e62e";
+}
+.icon-photopicturesstreamline:before {
+    content: "\e62f";
+}
+.icon-cameraphotostreamline:before {
+    content: "\e630";
+}
+.icon-cameraphotopolaroidstreamline:before {
+    content: "\e631";
+}
+.icon-picturestreamline:before {
+    content: "\e632";
+}
+.icon-framepicturestreamline:before {
+    content: "\e633";
+}
+.icon-picturestreamline2:before {
+    content: "\e634";
+}
+.icon-camerastreamlinevideo:before {
+    content: "\e635";
+}
+.icon-musicnotestreamline:before {
+    content: "\e636";
+}
+.icon-headsetsoundstreamline:before {
+    content: "\e637";
+}
+.icon-microrecordstreamline:before {
+    content: "\e638";
+}
+.icon-musicspeakerstreamline:before {
+    content: "\e639";
+}
+.icon-bookreadstreamline:before {
+    content: "\e63a";
+}
+.icon-bookdowloadstreamline:before {
+    content: "\e63b";
+}
+.icon-notebookstreamline:before {
+    content: "\e63c";
+}
+.icon-envellopemailstreamline:before {
+    content: "\e63d";
+}
+.icon-streamlinesuitcasetravel:before {
+    content: "\e63e";
+}
+.icon-firstaidmedecineshieldstreamline:before {
+    content: "\e63f";
+}
+.icon-emailmailstreamline:before {
+    content: "\e640";
+}
+.icon-bubblecommentstreamlinetalk:before {
+    content: "\e641";
+}
+.icon-bubblelovestreamlinetalk:before {
+    content: "\e642";
+}
+.icon-speechstreamlinetalkuser:before {
+    content: "\e643";
+}
+.icon-manpeoplestreamlineuser:before {
+    content: "\e644";
+}
+.icon-likelovestreamline:before {
+    content: "\e645";
+}
+.icon-crownkingstreamline:before {
+    content: "\e646";
+}
+.icon-happysmileystreamline:before {
+    content: "\e647";
+}
+.icon-mapstreamlineuser:before {
+    content: "\e648";
+}
+.icon-linkstreamline:before {
+    content: "\e649";
+}
+.icon-locklockerstreamline:before {
+    content: "\e64a";
+}
+.icon-lockerstreamlineunlock:before {
+    content: "\e64b";
+}
+.icon-deletegarbagestreamline:before {
+    content: "\e64c";
+}
+.icon-dangerdeathdeletedestroyskullstreamline:before {
+    content: "\e64d";
+}
+.icon-clockstreamlinetime:before {
+    content: "\e64e";
+}
+.icon-dashboardspeedstreamline:before {
+    content: "\e64f";
+}
+.icon-settingsstreamline:before {
+    content: "\e650";
+}
+.icon-settingsstreamline2:before {
+    content: "\e651";
+}
+.icon-settingsstreamline3:before {
+    content: "\e652";
+}
+.icon-databasestreamline:before {
+    content: "\e653";
+}
+.icon-streamlinesync:before {
+    content: "\e654";
+}
+.icon-factoryliftstreamlinewarehouse:before {
+    content: "\e655";
+}
+.icon-caddieshopshoppingstreamline:before {
+    content: "\e656";
+}
+.icon-caddieshoppingstreamline:before {
+    content: "\e657";
+}
+.icon-receiptshoppingstreamline:before {
+    content: "\e658";
+}
+.icon-bagshoppingstreamline:before {
+    content: "\e659";
+}
+.icon-streamlineumbrellaweather:before {
+    content: "\e65a";
+}
+.icon-drugmedecinestreamlinesyringue:before {
+    content: "\e65b";
+}
+.icon-armchairchairstreamline:before {
+    content: "\e65c";
+}
+.icon-backpackstreamlinetrekking:before {
+    content: "\e65d";
+}
+.icon-chaplinhatmoviestreamline:before {
+    content: "\e65e";
+}
+.icon-cocktailmojitostreamline:before {
+    content: "\e65f";
+}
+.icon-divingleisureseasportstreamline:before {
+    content: "\e660";
+}
+.icon-monoclemustachestreamline:before {
+    content: "\e661";
+}
+.icon-baristacoffeeespressostreamline:before {
+    content: "\e662";
+}
+.icon-coffeestreamline:before {
+    content: "\e663";
+}
+.icon-cheffoodrestaurantstreamline:before {
+    content: "\e664";
+}
+.icon-barbecueeatfoodstreamline:before {
+    content: "\e665";
+}
+.icon-eatfoodhotdogstreamline:before {
+    content: "\e666";
+}
+.icon-foodicecreamstreamline:before {
+    content: "\e667";
+}
+.icon-japanstreamlinetea:before {
+    content: "\e668";
+}
+.icon-eatfoodforkknifestreamline:before {
+    content: "\e669";
+}
+.icon-video:before {
+    content: "\e600";
+}
+.icon-pen:before {
+    content: "\e601";
+}
+.icon-eye:before {
+    content: "\e606";
+}
+.icon-bubble:before {
+    content: "\e603";
+}
+.icon-music:before {
+    content: "\e604";
+}
+.icon-lab:before {
+    content: "\e605";
+}
+/* General */
+
+img {
+    max-width: 100%;
+}
+html, body {
+    height: 100%;
+}
+body {
+    overflow-x: hidden;
+}
+::selection {
+    background: rgb(250, 207, 40);
+}
+
+a:link {
+    color: #dedede;
+}
+a:active {
+    color: #dedede;
+}
+a:visited {
+    color: #dedede;
+}
+a:hover {
+    color: rgb(250, 207, 40);
+}
+
+/* Intro */
+
+#intro {
+    width: 100%;
+    min-height: 100%;
+    background: rgb(250, 207, 40);
+    display: inline-block;
+}
+#intro .container {
+    max-width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+#intro .container .wrap {
+    padding: 5% 0 0 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+#intro .container section img {
+    max-width: 480px;
+}
+/* What */
+
+#what {
+    background: url('../img/what.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+#what .container {
+    max-width: 960px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 12% 0 0 0;
+    text-align: center;
+}
+#what .container section:first-child {
+    display: inline-block;
+}
+#what .container section:first-child h1 {
+    font-family: 'BebasRegular';
+    font-size: 100px;
+    color: #fff;
+    vertical-align: middle;
+}
+#what .container section:nth-child(2) {
+    padding: 10% 0 0 0;
+    display: inline-block;
+}
+#what .container section:nth-child(2) p {
+    font-family: 'BebasRegular';
+    font-size: 25px;
+    color: #fff;
+    vertical-align: middle;
+}
+#what .container section:nth-child(2) img {
+    margin: 5% auto 5% auto;
+    max-width: 150px;
+}
+/* Infos */
+
+#infos {
+    width: 100%;
+    min-height: 50%;
+    background: #000;
+    display: inline-block;
+    background: url('../img/infos.png') no-repeat center center fixed;
+    background-size: cover;
+}
+#infos .container {
+    max-width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 5% 3% 5% 3%;
+    text-align: center;
+}
+#infos .container section {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10% 2% 2% 2%;
+    width: 100%;
+}
+#infos .container section h2 {
+    font-family: 'BebasThin';
+    font-size: 100px;
+    color: #fff;
+    float: left;
+    clear: left;
+}
+#infos .container section h3 {
+    font-family: 'BebasBook';
+    font-size: 100px;
+    color: #fff;
+    float: right;
+    clear: right;
+    -webkit-animation-delay: 1s;
+}
+/* Schedule */
+
+#schedule {
+    width: 100%;
+    min-height: 100%;
+    background: url('../img/stardust.png');
+    display: inline-block;
+    padding: 0 0 2% 0;
+}
+#schedule .container {
+    max-width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 6% 0 3% 0;
+}
+#schedule .container .headliners {
+    padding: 0% 0 3% 0;
+    color: #dedede;
+    line-height: 0.5;
+}
+#schedule .container .headliners h1 {
+    font-family: 'BebasBook';
+    font-size: 80px;
+    text-shadow: 1px 1px #bebebe;
+    display: inline-block;
+    position: relative;
+    line-height: 80px;
+    padding: 0 0 9% 0;
+}
+#schedule .container .headliners h1:before, #schedule .container .headliners h1:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 3px #dedede solid;
+    border-top: 3px #dedede solid;
+    top: 0;
+    width: 40%;
+    margin-top: 20px;
+}
+#schedule .container .headliners h1:before {
+    right: 100%;
+    margin-right: 5%;
+}
+#schedule .container .headliners h1:after {
+    left: 100%;
+    margin-left: 5%;
+}
+#schedule .container .headliners .slider .a {
+    background: url('../img/hory.png');
+}
+#schedule .container .headliners .slider .b {
+    background: url('../img/nvmeri.png');
+}
+#schedule .container .headliners .slider .c {
+    background: url('../img/anca.png');
+}
+#schedule .container .headliners .slider .d {
+    background: url('../img/mpba.png');
+}
+#schedule .container .headliners .slider .e {
+    background: url('../img/stukart.png');
+}
+#schedule .container .headliners .slider .f {
+    background: url('../img/jemine.png');
+}
+#schedule .container .headliners .slider div  {
+    text-align: center;
+    font-family: 'BebasBook';
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #666;
+    line-height: 220px;
+}
+#schedule .container h2 {
+    font-family: 'BebasBold';
+    font-size: 80px;
+    color: #fff;
+}
+#schedule .program {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 5% 2% 5%;
+}
+#schedule .program section:first-child, #schedule .program section:nth-child(2) {
+    width: 46%;
+    display: inline-block;
+    float: left;
+    padding: 2%;
+}
+#schedule .program section:nth-child(2) {
+    float: left;
+}
+#schedule .program section:nth-child(3) { 
+    padding: 5% 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
+}
+#schedule .program section table tbody tr th {
+    font-family: 'BebasRegular';
+    text-align: center;
+    font-size: 30px;
+    padding: 5%;
+    color: white;
+    border: #fff solid 5px;
+}
+#schedule .program section table tbody tr {
+    font-family: 'BebasBook';
+    font-size: 25px;
+    color: #fff;
+    border-collapse: collapse;
+    text-align: right;
+    border-left: #fff solid 6px;
+    border-right: #fff solid 6px;
+}
+#schedule .program section table {
+    width: 100%;
+}
+.band td {
+    padding: 2%! important;
+}
+.heading td {
+    font-family: 'BebasRegular';
+    text-align: center;
+    padding: 5% !important;
+}
+#schedule .program section table tbody tr:last-child {
+    border-bottom: #fff solid 6px;
+}
+#schedule .program section table tbody td {
+    border-bottom: #fff solid 2px;
+}
+#schedule .program section table tbody tr td {
+    padding: 4%;
+    vertical-align: middle;
+}
+#schedule .program section table tbody tr td span {
+    padding: 0 4% 0 4%;
+    display: inline-block;
+}
+#schedule .program section table tbody tr td article {
+    padding: 4% 0 1% 0;
+    max-width: 400px;
+    float: right;
+    clear: both;
+}
+/* Footer */
+
+footer {
+    overflow: hidden;
+    width: 100%;
+    min-height: 40%;
+}
+footer .container {
+    background: url('../img/footer.png') no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+    margin: 0 auto;
+}
+footer .container section:first-child {} footer .container section:first-child h3 {
+    color: #fff;
+    font-family: 'BebasBold';
+    font-size: 70px;
+    text-align: center;
+    padding: 2%;
+}
+footer .container section:nth-child(2) {
+    width: 100%;
+    height: 280px;
+    margin: 0 auto 0 auto;
+    background: url('../img/rtba-partneri.png') no-repeat center #fff;
+    background-size: 90%;
+}
+footer .container section:nth-child(3) {
+    font-family: 'BebasBook';
+    padding: 2%;
+    background: #dedede;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    display: inline-block;
+}
+footer .container section:nth-child(3) table {
+    margin: 100px 0 0 0;
+}
+
+footer .container section:nth-child(3) img {
+    max-width: 50px;
+    padding: 0 2% 4% 0;
+}
+
+
+footer a:link {
+    color: #000;
+}
+footer a:active {
+    color: #000;
+}
+footer a:visited {
+    color: #000;
+}
+footer a:hover {
+    color: rgb(250, 207, 40);
+}
